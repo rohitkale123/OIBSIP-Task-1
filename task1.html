@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Web-Site</title>
+    <style>
+        /* css Resrt */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('./logo1.jpg');
+            background-repeat: no-repeat;
+            background-size: 1537px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .left {
+            
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 10px;
+
+        }
+
+        .left img {
+            width: 177px;
+        }
+
+        .left div {
+            text-align: center;
+
+        }
+
+        .mid {
+            
+            display: block;
+            margin: 29px auto;
+            width: 46%;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+            font-size: 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+
+        }
+
+        .right {
+            
+            position: absolute;
+            display: inline-block;
+            right: 34px;
+            top: 20px;
+
+        }
+
+        .btn,
+        .reset {
+            margin: 8px 5px;
+            background-color: black;
+            color: blanchedalmond;
+            padding: 4px 13px;
+            border: 2px solid violet;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+
+        }
+
+        .container {
+          
+            margin: 157px 129px;
+            padding: 075x;
+            width: 31%;
+            border-radius: 10px;
+        }
+
+        .container h1 {
+            text-align: center;
+
+        }
+
+        .form-group input {
+            text-align: center;
+            width: 466px;
+            line-height: 35px;
+            margin-top: 14px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .container button,
+        .reset {
+
+            width: 25%;
+            margin: 10px 13px;
+            padding: 5px;
+             position: relative;
+            left: 74px;
+        }
+
+        .gg {
+            display: inline-block;
+            width: 70%;
+            margin-top: 4px;
+            margin-left: 60px;
+            padding: 0px;
+        }
+ footer{
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 2px 2px red;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo2.png" alt="loading">
+            <div>Rohit Fitness club</div>
+        </div>
+        <!-- middle for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+
+                <li><a href="#" class="active">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Fitness Calculator</a>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- right boc for button -->
+        <div class="right">
+            <button class="btn">Call Us Now </button>
+            <button class="btn">Email Us </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of paithan</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter you name">
+
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Enter your Phone Numeber">
+            </div>
+            <div class="form-group">
+                <input type="text " placeholder="Enter your Email Id">
+            </div>
+            <div class="gg">
+                <input type="submit" value="submit" class="reset">
+                <input type="reset" value="Reset" class="reset">
+            </div>
+
+        </form>
+
+    </div>
+    <footer>
+        To enjoy the glow of good health, you must exercise.
+
+        
+    </footer>
+
+</body>
+
+</html>
+
+
+
+  
